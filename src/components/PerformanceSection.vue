@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section>
-        <div class="container pt-5">
+        <div class="container py-5">
             <!-- Title and divider container -->
             <div class="section-top pt-5 text-center">
                 <h2 class="text-uppercase text-white fw-bold">High Performance Facilities</h2>
@@ -14,7 +14,7 @@ export default {
             </div>
             <!-- /Title and divider container -->
             <!-- Images container -->
-            <div class="d-flex flex-wrap img-container">
+            <div class="d-flex flex-wrap img-container mb-5">
                 <img src="../assets/img/home-image1.jpg" alt="Facility Img">
                 <img src="../assets/img/home-image2.jpg" alt="Facility Img">
                 <img src="../assets/img/home-image3.jpg" alt="Facility Img">
