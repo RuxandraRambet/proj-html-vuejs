@@ -13,12 +13,12 @@ import { faLinkSlash } from '@fortawesome/free-solid-svg-icons';
 import { faBicycle } from '@fortawesome/free-solid-svg-icons';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faHeartPulse } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 /* add icons to the library */
-library.add(faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebook, faTwitter, faInstagram)
+library.add(faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram)
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

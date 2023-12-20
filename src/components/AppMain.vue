@@ -5,6 +5,7 @@ import IconsSection from './IconsSection.vue';
 import ResultsSection from './ResultsSection.vue';
 import PerformanceSection from './PerformanceSection.vue';
 import QuoteSection from './QuoteSection.vue';
+import TrainersSection from './TrainersSection.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -14,6 +15,7 @@ export default {
         ResultsSection,
         PerformanceSection,
         QuoteSection,
+        TrainersSection,
     }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
         <ResultsSection/>
         <PerformanceSection/>
         <QuoteSection/>
+        <TrainersSection/>
     </main>
 </template>
 
