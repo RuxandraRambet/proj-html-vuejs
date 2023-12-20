@@ -8,11 +8,13 @@ export default {
 <template>
     <section>
         <div class="container py-5">
+            <!-- Title and divider container -->
             <div class="section-top text-center mt-5 mb-4">
                 <h2 class="text-uppercase text-white fw-bold">Real World Results</h2>
                 <img src="../assets/img/divider-xx-red.png" alt="divider X">
             </div>
-
+            <!-- /Title and divider container -->
+            <!-- first row -->
             <div class="row gap-4">
                 <div class="col d-flex p-3">
                     <img src="../assets/img/review_1-compressor.jpg" alt="user review img">
@@ -34,10 +36,10 @@ export default {
                         <h6>- Simon Chel</h6>
                     </div>
                 </div>
-
             </div>
-
-            <div class="row gap-4 mt-4">
+            <!-- /first row -->
+            <!-- second row -->
+            <div class="row gap-4 mt-4 mb-5">
                 <div class="col d-flex p-3">
                     <img src="../assets/img/review_2-compressor.jpg" alt="user review img">
                     <div class="review-text ms-3">
@@ -57,7 +59,7 @@ export default {
                         <h6>- Jeff Glum</h6>
                     </div>
                 </div>
-
+                <!-- /second row -->
             </div>
         </div>
 
