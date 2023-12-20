@@ -1,3 +1,5 @@
 @use './partials/typography' as *;
 @use './partials/variables' as *;
 @use './partials/common' as *;
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
