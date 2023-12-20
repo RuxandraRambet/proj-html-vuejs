@@ -10,7 +10,7 @@ export default {
         <div class="container">
             <div class="row py-5">
                 <!-- left side -->
-                <div class="col-6 py-5 text-center">
+                <div class="col py-5 text-center">
                     <div class="img-container">
                         <img src="../assets/img/home_img-compressor.jpg" alt="compressor img">
                     </div>
@@ -18,7 +18,7 @@ export default {
                 <!-- left-side -->
                 
                 <!-- right side -->
-                <div class="col-6 py-5">
+                <div class="col py-5">
                     <h3 class="fw-bold text-white mb-5">Sign Up For A Free Training Session!</h3>
                     <div class="mb-4">
                         <label for="name" class="form-label">Name..*</label>
