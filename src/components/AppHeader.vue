@@ -75,7 +75,7 @@ header {
     width: 100%;
     height: 700px;
     background-image: url(../assets/img/home-banner.jpg);
-    background-position: center-top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 

@@ -9,11 +9,15 @@ export default {
     <section>
         <div class="container">
             <div class="row py-5">
+                <!-- left side -->
                 <div class="col-6 py-5 text-center">
                     <div class="img-container">
                         <img src="../assets/img/home_img-compressor.jpg" alt="compressor img">
                     </div>
                 </div>
+                <!-- left-side -->
+                
+                <!-- right side -->
                 <div class="col-6 py-5">
                     <h3 class="fw-bold text-white mb-5">Sign Up For A Free Training Session!</h3>
                     <div class="mb-4">
@@ -26,6 +30,7 @@ export default {
                     </div>
                     <button class="btn w-100 rounded-0 text-uppercase mt-4 text-white" type="button">Start Now!</button>
                 </div>
+                <!-- /right side -->
             </div>
         </div>
     </section>
