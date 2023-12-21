@@ -75,7 +75,7 @@ export default {
 
             <!-- Button -->
             <div class="btn-container text-center mt-4 mb-5">
-                <button class="btn rounded-0 text-uppercase py-4 px-5">View all trainers</button>
+                <button class="btn rounded-0 text-uppercase py-2 px-5">View all trainers</button>
             </div>
             <!-- /Button -->
         </div>
