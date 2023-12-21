@@ -13,6 +13,9 @@ export default {
 </template>
 
 <style scoped>
+    h1 {
+        font-size: 70px;
+    }
     .btn {
         border: 1px solid #6b6b6b;
     }
