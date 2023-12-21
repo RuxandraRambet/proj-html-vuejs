@@ -13,7 +13,7 @@ export default {
                 <img src="../assets/img/divider-xx-red.png" alt="divider X" class="pt-3 pb-4">
             </div>
             <!-- /Title and divider container -->
-            <div class="row-rr d-flex"> //qui fare il calcolo
+            <div class="row-rr d-flex justify-content-center"> 
 
                 <!-- Devided in 3 main columns each containing 2 col-components -->
                 <!-- column 1 -->
@@ -27,7 +27,7 @@ export default {
                                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                             </div>
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
@@ -42,7 +42,7 @@ export default {
                                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                             </div>
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
@@ -62,7 +62,7 @@ export default {
                             </div>
 
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
@@ -77,7 +77,7 @@ export default {
                                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                             </div>
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
@@ -96,7 +96,7 @@ export default {
                                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                             </div>
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
@@ -111,7 +111,7 @@ export default {
                                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
                             </div>
                         </div>
-                        <div class="item-bottom p-2">
+                        <div class="item-bottom p-4">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nemo aut dolorum voluptas
                                 sit, eligendi beatae[...]</p>
