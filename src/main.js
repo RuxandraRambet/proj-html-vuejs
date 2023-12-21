@@ -18,8 +18,9 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 /* add icons to the library */
-library.add(faLinkSlash, faLink, faMagnifyingGlass, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram)
+library.add(faLinkSlash,faChevronRight, faLink, faMagnifyingGlass, faBicycle, faCloud, faHeartPulse, faFacebookF, faTwitter, faInstagram)
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
