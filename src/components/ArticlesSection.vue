@@ -19,8 +19,13 @@ export default {
                 <!-- column 1 -->
                 <div class="column d-flex flex-column">
                     <div clsss="item">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/blog1.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
@@ -29,8 +34,13 @@ export default {
                         </div>
                     </div>
                     <div class="item mt-4">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/blog4.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
@@ -43,8 +53,14 @@ export default {
                 <!-- column2 -->
                 <div class="column d-flex flex-column">
                     <div clsss="item">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/blog6.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
+
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
@@ -53,8 +69,13 @@ export default {
                         </div>
                     </div>
                     <div class="item mt-4">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/trainer3.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
@@ -67,8 +88,13 @@ export default {
                 <!-- column3 -->
                 <div class="column d-flex flex-column">
                     <div clsss="item">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/trainer4.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white fw-bold">Train with free weights or your body weight?</h6>
@@ -77,8 +103,13 @@ export default {
                         </div>
                     </div>
                     <div class="item mt-4">
-                        <div class="item-top">
+                        <div class="item-top position-relative d-flex justify-content-center align-items-center">
                             <img src="../assets/img/trainer1.jpg" alt="" class="w-100">
+                            <!-- icons container show on hover -->
+                            <div class="icons-container text-white position-absolute fs-3">
+                                <font-awesome-icon icon="fa-solid fa-link" class="me-4" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </div>
                         <div class="item-bottom p-2">
                             <h6 class="text-white">Train with free weights or your body weight?</h6>
@@ -103,7 +134,6 @@ export default {
 
 section {
     background-color: $primarybgcolor;
-
     .column {
         margin: 15px;
         width: calc((100% / 3) - 30px);
@@ -115,9 +145,23 @@ section {
     .item-bottom {
         background-color: $secondarybgcolor;
     }
+
     button {
         border: 1px solid $textsecondarycolor;
         color: $textsecondarycolor;
+    }
+    .icons-container {
+        width: 100%;
+        height: 100%;
+        background: rgba(237, 85, 85, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+    }
+
+    .item-top:hover .icons-container {
+        visibility: visible;
     }
 }
 </style>
